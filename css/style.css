@@ -31,8 +31,12 @@ ul{
 /* start home sreen */
 
 /* start navbar */
+header .langs,
+header .langs a{
+    color: #8b8080;
+}
 header a img{
-    width: 100%;
+    width: 90%;
 }
 header .nav1{
     background-color: #000;
@@ -355,6 +359,7 @@ header .right-part .nav2 ul li:not(:last-child)::after{
     font-size: 20px;
     /* font-family: acuminMediumFont; */
     margin-top: 0px;
+    width: 85%;
 }
  .banner-description button{
     /* font-family: lightFont; */
@@ -366,11 +371,11 @@ header .right-part .nav2 ul li:not(:last-child)::after{
 /* start banner_4 */
 .banner_4{
     position: relative;
-    background-image: url(./../images/BOD_banner_3.jpg);
+    background-image: url(./../images/img_4-05.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 750px;
+    height: 650px;
 }
 .bannerRight .hr{
     margin-left: auto;
@@ -380,12 +385,12 @@ header .right-part .nav2 ul li:not(:last-child)::after{
 /* start banner_5 */
 .banner_5{
     position: relative;
-    background-image: url(./../images/BOD_banner_4.jpg);
+    background-image: url(./../images/img_5-05.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 750px;
-    border-bottom: 10px solid #1b75ba;
+    height: 650px;
+    /* border-bottom: 10px solid #1b75ba; */
     margin-bottom: 40px;
 }
 /* end banner_5 */
@@ -393,12 +398,12 @@ header .right-part .nav2 ul li:not(:last-child)::after{
 /* start banner_6 */
 .banner_6{
     position: relative;
-    background-image: url(./../images/BOD_banner_5.jpg);
+    background-image: url(./../images/img_6-05.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 750px;
-    border-bottom: 10px solid #1b75ba;
+    height: 650px;
+    /* border-bottom: 10px solid #1b75ba; */
     margin-bottom: 40px;
 }
 /* end banner_6 */
@@ -415,9 +420,20 @@ header .right-part .nav2 ul li:not(:last-child)::after{
 }
 
 /* end banner_7 */
-
+.categories{
+    margin-bottom: 40px;
+}
+.categories .cat{
+    width: 100%;
+    margin: auto;
+}
 .categories img{
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    width: 95%;
+}
+.categories .text{
+    width: 90%;
+    margin: auto;
 }
 
 /* start footer */
